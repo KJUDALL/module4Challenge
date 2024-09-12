@@ -16,17 +16,29 @@
 
 	<body>
 		<!-- TODO: Create landing page elements -->
-		<h1>What's on your mind?</h1>
-		<form id="form">
-			<label for="username">Username</label>
-			<input id="username" />
-			<label for="title">Title</label>
-			<input id="title" />
-			<label for="content">Content</label>
-			<textarea id="content"> </textarea>
-			<p id="error">Please complete the form.</p>
-			<input id="submitBtn" type="submit" value="Submit" />
-		</form>
+		<header class="light dark">
+			<button type="button" id="toggle">☀️</button>
+		</header>
+		<main class="light dark">
+			<section class="light dark">
+				<aside>
+					<h2>My First Blog</h2>
+				</aside>
+			</section>
+			<section class="light dark">
+				<h2>What's on your mind?</h2>
+				<form id="form">
+					<label for="username">Username</label>
+					<input id="username" />
+					<label for="title">Title</label>
+					<input id="title" />
+					<label for="content">Content</label>
+					<textarea id="content"> </textarea>
+					<input id="submitBtn" type="submit" value="Submit" />
+					<p style="display: none;" id="error">Please complete the form.</p>
+				</form>
+			</section>
+		</main>
 	</body>
 
 </html>
