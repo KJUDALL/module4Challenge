@@ -17,6 +17,7 @@ body {
 	min-height: 100%;
 	line-height: 1;
 	font-family: sans-serif;
+
 }
 
 ​h1,
@@ -61,7 +62,8 @@ ul {
 	--action-accent: #8570a5;
 	--disabled: #aaa;
 	--error: #ff0022;
-	--circle-color: #ffb100;
+	--circle-color-light: #ffb100;
+	--circle-color-dark: #200b6e;
 }
 
 * {

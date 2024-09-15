@@ -2,13 +2,19 @@
   Form Styles
 */
 
+/* body {
+	border-color: lightgray;
+	border-style: solid;
+	border-radius: 1%;
+} */
+
 /*
   Tags
 */
 aside {
 	background: linear-gradient(
 		var(--light-accent),
-		var(--circle-color),
+		var(--circle-color-light),
 		var(--dark-accent)
 	);
 	clip-path: circle(20rem at center);
@@ -16,6 +22,11 @@ aside {
 	justify-content: center;
 	align-items: center;
 }
+
+body.dark aside {
+--circle-color-light: var(--circle-color-dark);
+}
+
 
 aside,
 section {
