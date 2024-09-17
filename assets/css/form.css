@@ -1,16 +1,11 @@
 /*
-  Form Styles
+Form Styles
 */
 
-/* body {
-	border-color: lightgray;
-	border-style: solid;
-	border-radius: 1%;
-} */
-
-/*
-  Tags
+/* 
+Tags
 */
+
 aside {
 	background: linear-gradient(
 		var(--light-accent),

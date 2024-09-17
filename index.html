@@ -11,21 +11,18 @@
 		<link rel="stylesheet" type="text/css" href="./assets/css/form.css" />
 	</head>
 
-	<body>
+	<body class="light">
 		<!-- TODO: Create landing page elements -->
-		<header class="light dark">
-			<a class="light dark"></a>
+		<header class="light">
+			<a class="light"></a>
 			<button type="button" id="toggle">☀️</button>
 		</header>
-
 		<main class="light">
-			<section>
-				<aside>
+				<aside class="light">
 					<h2>My First Blog</h2>
 				</aside>
-			</section>
-			<section>
-				<h2>What's on your mind?</h2>
+			<section class="light">
+				<h2 class="light">What's on your mind?</h2>
 				<form id="form">
 					<label for="username">Username</label>
 					<input id="username" />
@@ -34,10 +31,9 @@
 					<label for="content">Content</label>
 					<textarea id="content"> </textarea>
 					<input id="submitBtn" type="submit" value="Submit" />
-					<p style="display: none;" id="error">Please complete the form.</p>
+					<p class="light" style="display: none;" id="error">Please complete the form.</p>
 				</form>
 			</section>
-			<footer class="light"></footer>
 		</main>
 		<script defer src="./assets/js/logic.js"></script>
 		<script defer src="./assets/js/form.js"></script>

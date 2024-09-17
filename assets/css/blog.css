@@ -7,13 +7,18 @@
 */
 a {
 	text-decoration: none;
+	display: flex;
+	text-align: right;
+	justify-content: flex-end;
 }
 
 body {
-	margin: 0;
-	padding: 0;
+	border: 2px solid black; 
+	margin: 5px;
+	padding: 5px;
 	border-radius: 20px;
 	border-color: darkgrey;
+
 }
 article {
 	flex: 1 1 50%;
@@ -42,7 +47,7 @@ article p {
 }
 
 footer {
-	position: fixed;
+	position: static;
 	inset: 0;
 	top: calc(100% - 12rem);
 }
@@ -58,6 +63,8 @@ main {
 	height: calc(100vh - 18rem);
 	overflow-y: scroll;
 	justify-content: flex-start;
+	margin: 5px;
+	padding: 5px;
 }
 
 ul {
@@ -89,6 +96,8 @@ ul {
     IDs
   */
 #back {
+	display: flex;
+	text-align: right;
 	padding: 0.5rem 1rem;
 	border-radius: 4px;
 	margin-right: 1rem;

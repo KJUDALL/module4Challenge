@@ -14,13 +14,17 @@ html {
 }
 
 body {
+	border: 2px solid black; 
+	margin: 5px;
+	padding: 5px;
+	border-radius: 20px;
+	border-color: darkgrey;
 	min-height: 100%;
 	line-height: 1;
 	font-family: sans-serif;
-
 }
 
-​h1,
+
 h2,
 h3,
 h4,
@@ -79,8 +83,12 @@ header {
 	justify-content: space-between;
 }
 
-header,
+header {
+	padding: 2rem;
+}
+
 footer {
+	margin: 10px;
 	padding: 2rem;
 }
 
